@@ -1,0 +1,10 @@
+<templateSet group="user">
+  <template name="formatAnything" value="template &lt;&gt;&#10;struct fmt::formatter&lt;$TYPE$&gt; {&#10;    template &lt;typename ParseContext&gt;&#10;    constexpr auto parse(ParseContext &amp;ctx) { return ctx.begin(); }&#10;&#10;    template &lt;typename FormatContext&gt;&#10;    auto format(const $TYPE$ &amp;s, FormatContext &amp;ctx) {&#10;        return format_to(ctx.out(), &quot;{}&quot;, s.$DATA$);&#10;    }&#10;};" description="make a formatter for arbitray types" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION_C" value="true" />
+      <option name="OC_DECLARATION_CPP" value="true" />
+    </context>
+  </template>
+</templateSet>
