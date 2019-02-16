@@ -169,6 +169,14 @@
           <Count>41</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'quick_find'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2' or '⌥S'</ShortCut>
+          <Description>Stop 'quick_find'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'ssd'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
