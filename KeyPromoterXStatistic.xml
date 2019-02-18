@@ -169,6 +169,14 @@
           <Count>43</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'merge_sort'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2' or '⌥S'</ShortCut>
+          <Description>Stop 'merge_sort'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'quick_find'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
